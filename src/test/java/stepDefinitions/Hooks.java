@@ -12,14 +12,14 @@ public class Hooks {
 //	{
 //		BaseURL.baseurl();
 //	}
-	@Before
-	public static void login()
-	   
-	   { given()
-	    .auth().preemptive().basic("Numpy@gmail.com", "userapi@2025")
-	    .when()
-	    .get("https://userserviceapp-f5a54828541b.herokuapp.com")
-	    .then()
-	    .statusCode(200);
-	   }
+//	@Before
+//	public static void login()
+//	   
+//	   { given()
+//	    .auth().preemptive().basic("Numpy@gmail.com", "userapi@2025")
+//	    .when()
+//	    .get("https://userserviceapp-f5a54828541b.herokuapp.com")
+//	    .then()
+//	    .statusCode(200);
+//	   }
 }

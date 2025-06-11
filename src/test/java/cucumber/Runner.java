@@ -9,7 +9,7 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(features="src/test/resources/FeatureFiles",
 				 glue="stepDefinitions",
 				 monochrome=true,
-				 tags = "@exceltest",
+				 tags = "@Test",
 						 plugin = {
 								    "pretty",
 								    "html:target/cucumber-reports.html",

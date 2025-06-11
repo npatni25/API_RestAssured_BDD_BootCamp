@@ -1,5 +1,8 @@
 @tag
-Feature: API POST (Create User) request scenarios 
+Feature: API POST (Create User) request scenarios
+
+Background: User has logged into system
+ 
 
   @createUser
   Scenario: Successfully create a new user with valid data
