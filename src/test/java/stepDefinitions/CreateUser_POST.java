@@ -11,6 +11,16 @@ public class CreateUser_POST {
 	
 	private Response response;
     private JSONObject requestBody;
+    
+   public void login()
+   
+   { given()
+    .auth().preemptive().basic("Numpy@gmail.com", "userapi@2025")
+    .when()
+    .get("https://userserviceapp-f5a54828541b.herokuapp.com")
+    .then()
+    .statusCode(200);
+   }
 	
 	@Given("the request body contains valid first name, last name, contact number, email, and address")
 	public void prepare_request_body() 
