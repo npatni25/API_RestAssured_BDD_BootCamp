@@ -13,20 +13,6 @@ import io.restassured.response.Response;
 public class UpdateUser_PUT_final {
 	
 	public static HashMap map = new HashMap();
-	//public static HashMap address = new HashMap();
-
-	
-	
-//	@BeforeClass
-//	public void login()
-//	   
-//	   { given()
-//	    .auth().preemptive().basic("Numpy@gmail.com", "userapi@2025")
-//	    .when()
-//	    .get("https://userserviceapp-f5a54828541b.herokuapp.com")
-//	    .then()
-//	    .statusCode(404);
-//	   }
 	
 	@BeforeClass
 	public void putData()

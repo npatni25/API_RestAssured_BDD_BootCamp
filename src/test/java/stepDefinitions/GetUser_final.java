@@ -26,11 +26,7 @@ public void getUsermanually()
 			.assertThat().body("userFirstName", hasItem("Nehaa"))
 			.assertThat().body("userId", hasItem(23695))
 			.assertThat().header("Content-Type", "application/json")
-			.extract().response().print();	
+			.extract().response().prettyPrint();	
 	}
-	
-	
-	
-	
 
 }
